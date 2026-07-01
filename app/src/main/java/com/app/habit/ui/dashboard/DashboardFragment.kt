@@ -111,6 +111,12 @@ class DashboardFragment : Fragment() {
                 binding.tvNoPending.visibility = if (pendingHabits.isEmpty()) View.VISIBLE else View.GONE
             }
         }
+
+        viewLifecycleOwner.lifecycleScope.launch {
+            viewModel.completionRecords.collectLatest { records ->
+                binding.yearInPixels.setCompletionDates(records.map { it.date })
+            }
+        }
     }
 
     private fun isToday(date: Date): Boolean {

@@ -35,8 +35,8 @@
                 app:cardCornerRadius="12dp"
                 app:cardElevation="0dp"
                 app:strokeWidth="2dp"
-                app:strokeColor="@color/duo_green"
-                app:cardBackgroundColor="#F7F7F7">
+                app:strokeColor="@color/binance_yellow"
+                app:cardBackgroundColor="@color/bg_card">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -205,6 +205,51 @@
                         </LinearLayout>
 
                     </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Year in Pixels (Calendar Heatmap) -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Year in Pixels"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="@color/duo_green" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:text="Your consistency over the year"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clipToPadding="false"
+                        android:scrollbars="none">
+
+                        <com.app.habit.ui.custom.YearInPixelsView
+                            android:id="@+id/yearInPixels"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="4dp" />
+
+                    </HorizontalScrollView>
+
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 

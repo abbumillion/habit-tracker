@@ -12,8 +12,8 @@ import kotlinx.coroutines.launch
 import java.util.Date
 
 @Database(
-    entities = [Habit::class, User::class],
-    version = 3,
+    entities = [Habit::class, User::class, CompletionRecord::class],
+    version = 4,
     exportSchema = false
 )
 @TypeConverters(Converters::class)
@@ -43,7 +43,7 @@ abstract class HabitDatabase : RoomDatabase() {
             }
         }
 
-        private class SeedDatabaseCallback : RoomDatabase.Callback() {
+        private class SeedDatabaseCallback : Callback() {
             override fun onCreate(db: androidx.sqlite.db.SupportSQLiteDatabase) {
                 super.onCreate(db)
                 seedData()

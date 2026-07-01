@@ -1,25 +1,22 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
     <style name="Theme.HabitTracker" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/duo_green</item>
-        <item name="colorOnPrimary">@color/white</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/duo_dark_green</item>
-        <item name="colorOnSecondary">@color/white</item>
-        <item name="colorSecondaryContainer">#1E2022</item>
-        <item name="colorOnSecondaryContainer">@color/duo_green</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimary</item>
-        <item name="android:windowBackground">#131415</item>
-        <item name="android:colorBackground">#131415</item>
-        <item name="colorSurface">#1E2022</item>
-        <item name="colorOnSurface">#E5E5E5</item>
+        <item name="colorPrimary">@color/binance_yellow</item>
+        <item name="colorOnPrimary">@color/binance_black</item>
+        <item name="colorSecondary">@color/binance_dark_yellow</item>
+        <item name="colorOnSecondary">@color/binance_black</item>
+        <item name="colorSecondaryContainer">@color/binance_dark_gray</item>
+        <item name="colorOnSecondaryContainer">@color/binance_yellow</item>
 
-        <!-- Professional Text Colors for Night Mode -->
-        <item name="android:textColorPrimary">#E5E5E5</item>
-        <item name="android:textColorSecondary">#AFAFAF</item>
-        <item name="android:textColorHint">#777777</item>
+        <item name="android:statusBarColor">@color/binance_dark_gray</item>
+        <item name="android:windowBackground">@color/binance_dark_gray</item>
+        <item name="android:colorBackground">@color/binance_dark_gray</item>
+        <item name="colorSurface">@color/bg_main</item>
+        <item name="colorOnSurface">@color/binance_white</item>
+        <item name="colorSurfaceVariant">@color/bg_main</item>
+
+        <item name="android:textColorPrimary">@color/binance_white</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorHint">#707A8A</item>
         <item name="colorOutlineVariant">#3E4042</item>
     </style>
 </resources>

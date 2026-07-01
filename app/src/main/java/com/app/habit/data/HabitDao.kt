@@ -40,4 +40,13 @@ interface HabitDao {
 
     @Query("SELECT COUNT(*) FROM habits WHERE isActive = 1")
     suspend fun getActiveHabitsCount(): Int
+
+    @Insert
+    suspend fun insertCompletionRecord(record: CompletionRecord)
+
+    @Query("SELECT * FROM completion_records ORDER BY date ASC")
+    fun getAllCompletionRecords(): Flow<List<CompletionRecord>>
+
+    @Query("SELECT * FROM completion_records WHERE habitId = :habitId ORDER BY date ASC")
+    fun getCompletionRecordsForHabit(habitId: Int): Flow<List<CompletionRecord>>
 }

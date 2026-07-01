@@ -4,6 +4,7 @@ package com.app.habit.ui
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
+import com.app.habit.data.CompletionRecord
 import com.app.habit.data.Habit
 import com.app.habit.data.HabitDatabase
 import kotlinx.coroutines.delay
@@ -25,6 +26,13 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
     private val _isLoading = MutableStateFlow(true)
     val isLoading: StateFlow<Boolean> = _isLoading.asStateFlow()
 
+    val completionRecords: StateFlow<List<CompletionRecord>> = habitDao.getAllCompletionRecords()
+        .stateIn(
+            scope = viewModelScope,
+            started = SharingStarted.WhileSubscribed(5000),
+            initialValue = emptyList()
+        )
+
     val habits: StateFlow<List<Habit>> = habitDao.getAllHabits()
         .onStart { 
             _isLoading.value = true
@@ -38,7 +46,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
         )
 
     init {
-        // Data loading is handled by the 'habits' flow
+        // Data loading is handled by the flows
     }
 
     fun addHabit(habit: Habit) {
@@ -71,6 +79,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
             }
 
             habitDao.incrementStreak(habit.id, Date())
+            habitDao.insertCompletionRecord(CompletionRecord(habitId = habit.id, date = Date()))
         }
     }
 

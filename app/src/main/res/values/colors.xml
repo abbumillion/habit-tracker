@@ -1,35 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Duolingo Brand Colors -->
-    <color name="duo_green">#58CC02</color>
-    <color name="duo_dark_green">#46A302</color>
-    <color name="duo_light_green">#89E219</color>
-    <color name="duo_blue">#1CB0F6</color>
-    <color name="duo_white">#FFFFFF</color>
-    <color name="duo_gray">#AFAFAF</color>
-    <color name="duo_light_gray">#F7F7F7</color>
-    <color name="duo_text_black">#4B4B4B</color>
+    <!-- Binance Brand Colors -->
+    <color name="binance_yellow">#FCD535</color>
+    <color name="binance_dark_yellow">#EABF0E</color>
+    <color name="binance_black">#1E2329</color>
+    <color name="binance_dark_gray">#0B0E11</color>
+    <color name="binance_light_gray">#474D57</color>
+    <color name="binance_white">#EAECEF</color>
+    <color name="binance_pure_white">#FFFFFF</color>
 
-    <!-- Remapping old names to Duo colors for compatibility -->
-    <color name="fb_blue">@color/duo_green</color>
-    <color name="fb_dark_blue">@color/duo_dark_green</color>
-    <color name="fb_light_blue">#E9FFDB</color> <!-- Very light green -->
-    <color name="fb_white">@color/duo_white</color>
-    <color name="fb_gray">@color/duo_gray</color>
-    <color name="fb_light_gray">@color/duo_light_gray</color>
+    <!-- Component Specific Colors -->
+    <color name="bg_card">#2B3139</color>
+    <color name="bg_main">#1E2329</color>
+    <color name="text_primary">#EAECEF</color>
+    <color name="text_secondary">#929AA5</color>
 
-    <!-- Professional Text Colors -->
-    <color name="text_primary">#4B4B4B</color>
-    <color name="text_secondary">#777777</color>
-    <color name="text_hint">#AFAFAF</color>
+    <!-- Legacy Remapping for Compatibility -->
+    <color name="fb_blue">@color/binance_yellow</color>
+    <color name="fb_dark_blue">@color/binance_dark_yellow</color>
+    <color name="fb_light_blue">#333941</color>
+    <color name="fb_white">@color/binance_pure_white</color>
+    <color name="fb_gray">@color/text_secondary</color>
+    <color name="fb_light_gray">@color/bg_main</color>
+
+    <color name="duo_green">@color/binance_yellow</color>
+    <color name="duo_dark_green">@color/binance_dark_yellow</color>
+    <color name="duo_light_green">#F3BA2F</color>
+    <color name="duo_blue">@color/binance_light_gray</color>
+    <color name="duo_white">@color/binance_pure_white</color>
+    <color name="duo_gray">@color/text_secondary</color>
+    <color name="duo_light_gray">@color/bg_card</color>
+    <color name="duo_text_black">@color/text_primary</color>
 
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-
-    <!-- Legacy support -->
-    <color name="purple_200">@color/duo_light_green</color>
-    <color name="purple_500">@color/duo_green</color>
-    <color name="purple_700">@color/duo_dark_green</color>
-    <color name="teal_200">#E9FFDB</color>
-    <color name="teal_700">@color/duo_dark_green</color>
 </resources>

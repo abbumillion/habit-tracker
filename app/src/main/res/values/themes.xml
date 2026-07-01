@@ -1,26 +1,27 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <style name="Theme.HabitTracker" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/duo_green</item>
-        <item name="colorOnPrimary">@color/white</item>
-        <item name="colorSecondary">@color/duo_blue</item>
-        <item name="colorOnSecondary">@color/white</item>
-        <item name="colorSecondaryContainer">@color/fb_light_blue</item>
-        <item name="colorOnSecondaryContainer">@color/duo_green</item>
-        <item name="android:windowBackground">@color/white</item>
-        <item name="colorSurface">@color/white</item>
-        <item name="colorOnSurface">@color/text_primary</item>
-        <item name="android:colorBackground">@color/white</item>
+        <!-- Binance is always dark-themed -->
+        <item name="colorPrimary">@color/binance_yellow</item>
+        <item name="colorOnPrimary">@color/binance_black</item>
+        <item name="colorSecondary">@color/binance_light_gray</item>
+        <item name="colorOnSecondary">@color/binance_white</item>
+        <item name="colorSecondaryContainer">@color/bg_card</item>
+        <item name="colorOnSecondaryContainer">@color/binance_yellow</item>
 
-        <!-- Professional Text Colors -->
+        <item name="android:windowBackground">@color/bg_main</item>
+        <item name="android:colorBackground">@color/bg_main</item>
+        <item name="colorSurface">@color/bg_card</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorSurfaceVariant">@color/bg_card</item>
+
+        <!-- Text Colors -->
         <item name="android:textColorPrimary">@color/text_primary</item>
         <item name="android:textColorSecondary">@color/text_secondary</item>
-        <item name="android:textColorHint">@color/text_hint</item>
-        <item name="colorOutlineVariant">#E5E5E5</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="android:textColorHint">#707A8A</item>
+        <item name="colorOutlineVariant">#474D57</item>
 
-        <!-- Bottom Nav / Other -->
-        <item name="colorSurfaceVariant">@color/white</item>
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/bg_main</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
     </style>
 </resources>
