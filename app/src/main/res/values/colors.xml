@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Duolingo Brand Colors -->
+    <color name="duo_green">#58CC02</color>
+    <color name="duo_dark_green">#46A302</color>
+    <color name="duo_light_green">#89E219</color>
+    <color name="duo_blue">#1CB0F6</color>
+    <color name="duo_white">#FFFFFF</color>
+    <color name="duo_gray">#AFAFAF</color>
+    <color name="duo_light_gray">#F7F7F7</color>
+    <color name="duo_text_black">#4B4B4B</color>
+
+    <!-- Remapping old names to Duo colors for compatibility -->
+    <color name="fb_blue">@color/duo_green</color>
+    <color name="fb_dark_blue">@color/duo_dark_green</color>
+    <color name="fb_light_blue">#E9FFDB</color> <!-- Very light green -->
+    <color name="fb_white">@color/duo_white</color>
+    <color name="fb_gray">@color/duo_gray</color>
+    <color name="fb_light_gray">@color/duo_light_gray</color>
+
+    <!-- Professional Text Colors -->
+    <color name="text_primary">#4B4B4B</color>
+    <color name="text_secondary">#777777</color>
+    <color name="text_hint">#AFAFAF</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Legacy support -->
+    <color name="purple_200">@color/duo_light_green</color>
+    <color name="purple_500">@color/duo_green</color>
+    <color name="purple_700">@color/duo_dark_green</color>
+    <color name="teal_200">#E9FFDB</color>
+    <color name="teal_700">@color/duo_dark_green</color>
+</resources>

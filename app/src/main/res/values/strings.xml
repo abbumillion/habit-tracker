@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">Habit Tracker</string>
+
+    <!-- Dashboard -->
+    <string name="overview">Overview</string>
+    <string name="active">Active</string>
+    <string name="total_streaks">Total Streaks</string>
+    <string name="due_today">Due Today</string>
+    <string name="all_caught_up">All caught up! 🎉</string>
+    <string name="your_progress">Your Progress</string>
+
+    <!-- Habits -->
+    <string name="habit_completed_toast">✅ %1$s completed!</string>
+    <string name="streak_reset_toast">🔄 Streak reset for %1$s</string>
+    <string name="habit_added_toast">✅ Habit added!</string>
+    <string name="habit_updated_toast">✅ Habit updated!</string>
+    <string name="habit_deleted_toast">🗑️ %1$s deleted</string>
+    <string name="delete_habit_title">Delete Habit</string>
+    <string name="delete_habit_message">Are you sure you want to delete \'%1$s\'?</string>
+    <string name="delete_button">Delete</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="update_button">Update</string>
+    <string name="save_button">Save</string>
+    <string name="name_required_error">Name is required</string>
+    <string name="frequency_error">Must be Daily, Weekly, or Monthly</string>
+    <string name="no_description">No description</string>
+    <string name="streak_format">🔥 %1$d days</string>
+    <string name="last_completed_format">Last: %1$s</string>
+    <string name="not_started_yet">Not started yet</string>
+    <string name="habit_name_hint">Habit Name</string>
+    <string name="description_hint">Description (optional)</string>
+    <string name="frequency_label">Frequency</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="add_new_habit">Add New Habit</string>
+    <string name="edit_habit">Edit Habit</string>
+    <string name="save_habit">Save Habit</string>
+    <string name="streak_label">STREAK</string>
+    <string name="reset">Reset</string>
+
+    <!-- Performance -->
+    <string name="performance_overview">Performance Overview</string>
+    <string name="overall_completion_rate">Overall Completion Rate</string>
+    <string name="zero_percent">0%</string>
+    <string name="completion_rate_format">%1$d%%</string>
+    <string name="best_streak">Best Streak</string>
+    <string name="total_done">Total Done</string>
+    <string name="last_7_days_activity">Last 7 Days Activity</string>
+
+    <!-- Settings -->
+    <string name="settings_account">Account</string>
+    <string name="settings_account_subtitle">Profile, privacy, security</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_subtitle">Light, dark, system default</string>
+    <string name="settings_fonts">Fonts</string>
+    <string name="settings_fonts_subtitle">Size, style</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_subtitle">English (US)</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_notifications_subtitle">Push, email</string>
+    <string name="settings_help">Help &amp; Support</string>
+    <string name="settings_help_subtitle">FAQ, contact us</string>
+    <string name="settings_sign_out">Sign Out</string>
+
+    <string name="choose_theme">Choose Theme</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="system_default">System Default</string>
+    <string name="select_language">Select Language</string>
+    <string name="font_size">Font Size</string>
+    <string name="account_details">Account Details</string>
+    <string name="notification_settings">Notification Settings</string>
+    <string name="sign_out_message">Are you sure you want to sign out? Your progress is saved locally.</string>
+    <string name="account_details_mock">User: Habit Tracker\nStatus: Premium Member\nLast Sync: Today</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="close">Close</string>
+    <string name="push_notifications">Push Notifications</string>
+    <string name="email_updates">Email Updates</string>
+    <string name="daily_reminders">Daily Reminders</string>
+
+    <!-- Menu / Nav -->
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_habits">Habits</string>
+    <string name="menu_performance">Performance</string>
+    <string name="menu_milestones">Milestones</string>
+    <string name="menu_settings">Settings</string>
+    <string name="unlocked">UNLOCKED</string>
+    <string name="milestone_progress_format">%1$d/%2$d</string>
+    <string name="daily_progress_status_format">%1$d of %2$d habits done</string>
+    <string name="loading_progress">Loading progress...</string>
+    <string name="most_consistent_format">Most Consistent: %1$s</string>
+    <string name="weekly_average_format">Weekly Average: %1$d completions</string>
+    <string name="none">None</string>
+    <string name="language_changed_toast">Language changed to %1$s</string>
+    <string name="signed_out_successfully">Signed out successfully</string>
+    <string name="font_size_set_toast">Font size set to %1$s</string>
+    <string name="streak_reset_format">Streak reset for %1$s</string>
+    <string name="clicked_format">Clicked: %1$s</string>
+    <string name="nav_header_subtitle">Track your progress daily</string>
+    <string name="habit_insights">Habit Insights</string>
+    <string name="category_label">Category</string>
+    <string name="welcome_back">Welcome Back, %1$s!</string>
+
+    <!-- Sample Habits -->
+    <string name="sample_habit_exercise">Exercise</string>
+    <string name="sample_habit_exercise_desc">30 minutes of physical activity</string>
+    <string name="sample_habit_read">Read</string>
+    <string name="sample_habit_read_desc">Read 20 pages of a book</string>
+    <string name="sample_habit_meditate">Meditate</string>
+    <string name="sample_habit_meditate_desc">10 minutes of meditation</string>
+    <string name="daily_goal">Daily Goal</string>
+    <string name="motivation_quote_1">"Success is the sum of small efforts, repeated day in and day out."</string>
+    <string name="motivation_quote_2">"Motivation is what gets you started. Habit is what keeps you going."</string>
+    <string name="motivation_quote_3">"The secret of your future is hidden in your daily routine."</string>
+    <string name="motivation_quote_4">"We are what we repeatedly do. Excellence, then, is not an act, but a habit."</string>
+    <string name="motivation_quote_5">"Small daily improvements over time lead to stunning results."</string>
+    <string name="motivation_quote_6">"It does not matter how slowly you go as long as you do not stop."</string>
+    <string name="motivation_quote_7">"A year from now you may wish you had started today."</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@android:drawable/ic_menu_today"
+            android:title="@string/menu_dashboard" />
+        <item
+            android:id="@+id/nav_habits"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/menu_habits" />
+        <item
+            android:id="@+id/nav_performance"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="@string/menu_performance" />
+        <item
+            android:id="@+id/nav_milestones"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="@string/menu_milestones" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="@string/menu_settings" />
+    </group>
+</menu>

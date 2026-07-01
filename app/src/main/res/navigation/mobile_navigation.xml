@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.app.habit.ui.dashboard.DashboardFragment"
+        android:label="@string/menu_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.app.habit.ui.auth.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/nav_signup"
+        android:name="com.app.habit.ui.auth.SignUpFragment"
+        android:label="Sign Up"
+        tools:layout="@layout/fragment_signup" />
+
+    <fragment
+        android:id="@+id/nav_habits"
+        android:name="com.app.habit.ui.habits.HabitsFragment"
+        android:label="@string/menu_habits"
+        tools:layout="@layout/fragment_habits" />
+
+    <fragment
+        android:id="@+id/nav_performance"
+        android:name="com.app.habit.ui.performance.PerformanceFragment"
+        android:label="@string/menu_performance"
+        tools:layout="@layout/fragment_performance" />
+
+    <fragment
+        android:id="@+id/nav_milestones"
+        android:name="com.app.habit.ui.milestones.MilestonesFragment"
+        android:label="@string/menu_milestones"
+        tools:layout="@layout/fragment_milestones" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.app.habit.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
