@@ -17,10 +17,6 @@
 
 ##  Screenshots
 
-| Dashboard | Milestones | Settings |
-| :---: | :---: | :---: |
-| ![Dashboard](https://github.com/user-attachments/assets/a35be27a-96e7-49ec-a51c-620e440e4db4)  | ![Settings](screenshots/settings.png) |
-
 ## Getting Started
 
 1. Clone the repository:
