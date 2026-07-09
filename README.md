@@ -17,6 +17,30 @@
 
 ##  Screenshots
 
+## dashboard
+
+<img width="1080" height="2408" alt="Image" src="https://github.com/user-attachments/assets/72d4ca47-e120-4120-a7a3-88de5b243f7a" />
+
+## Navigation
+
+<img width="1080" height="2408" alt="Image" src="https://github.com/user-attachments/assets/a50e0a54-1341-4eee-a215-c6c00896793e" />
+
+## habits
+
+<img width="1080" height="2408" alt="Image" src="https://github.com/user-attachments/assets/277b3707-81f2-477f-bf03-37204ce3c8b6" />
+
+## milestones
+
+<img width="1080" height="2408" alt="Image" src="https://github.com/user-attachments/assets/65488b78-2530-45a9-a4ec-3b24e1a55828" />
+
+## performance
+
+<img width="1080" height="2408" alt="Image" src="https://github.com/user-attachments/assets/fc594998-2e70-4143-b77a-33d6b1a52c4f" />
+
+## settings
+
+<img width="1080" height="2408" alt="Image" src="https://github.com/user-attachments/assets/afcdfb8f-87c7-41f4-9c8f-4f63e89b1633" />
+
 ## Getting Started
 
 1. Clone the repository:
